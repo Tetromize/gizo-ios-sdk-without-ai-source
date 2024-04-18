@@ -14,15 +14,15 @@ let package = Package(
             targets: ["GizoSDK"]),
     ],
     dependencies: [
-    .package(name: "MapboxMaps", url: "https://github.com/mapbox/mapbox-maps-ios.git", .exact("10.12.3")),
-    .package(name: "MapboxNavigation", url: "https://github.com/mapbox/mapbox-navigation-ios.git", .exact("2.12.0"))
+        .package(name: "MapboxMaps", url: "https://github.com/mapbox/mapbox-maps-ios.git", .exact("10.12.3")),
+        .package(name: "MapboxNavigation", url: "https://github.com/mapbox/mapbox-navigation-ios.git", .exact("2.12.0"))
     ],
     targets: [
         .target(
             name: "GizoSDK",
-            path: "GizoSDK"),
             dependencies: ["MapboxMaps", "MapboxNavigation"],
-
+            path: "GizoSDK"
+            )
     ],
     swiftLanguageVersions: [
         .v5
