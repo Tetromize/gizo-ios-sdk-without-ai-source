@@ -39,15 +39,15 @@ public class GizoAnalysis: NSObject {
         driveManager.stopRecording()
     }
     
-    public func attachPreview(preview: UIView?) {
-        driveManager.attachPreview(previewView: preview)
-    }
-    
-    public func lockPreview() {
-        driveManager.lockPreview()
-    }
-    
-    public func unlockPreview(preview: UIView) {
-        driveManager.unlockPreview(previewView: preview)
-    }
+//    public func attachPreview(preview: UIView?) {
+//        driveManager.attachPreview(previewView: preview)
+//    }
+//    
+//    public func lockPreview() {
+//        driveManager.lockPreview()
+//    }
+//    
+//    public func unlockPreview(preview: UIView) {
+//        driveManager.unlockPreview(previewView: preview)
+//    }
 }

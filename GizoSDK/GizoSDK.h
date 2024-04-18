@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char GizoSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GizoSDK/PublicHeader.h>
 
-#import <GizoSDK/VideoCaptureManager.h>
+//#import <GizoSDK/VideoCaptureManager.h>

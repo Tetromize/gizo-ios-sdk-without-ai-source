@@ -53,30 +53,30 @@ xcodebuild -create-xcframework -output "$FRAMEWORK_NAME.xcframework" \
 echo "Compressing XCFramework..."
 zip -r -X "$FRAMEWORK_NAME.xcframework.zip" "$FRAMEWORK_NAME.xcframework"
 
-
-# 1. Remove old data for prevent issues for the new data
-echo "Remove old xcframework resources..."
-rm -rf "$FRAMEWORK_NAME.xcframework"
-rm -rf archives
-rm -rf gizo-ios-sdk-alpha
-
-# 9. Clone distribution framework to manage from here the release and distribution via SPM
-echo "Cloning distribution framework..."
-git clone https://github.com/artificient-ai/gizo-ios-sdk-alpha.git
-
-# 10. Move XCFramework generated to the Distribution repository
-echo "Move XCFramework inside cloned repo..."
-mv ${FRAMEWORK_NAME}.xcframework.zip gizo-ios-sdk-alpha
-
-# 11. Place to the cloned repo directory
-echo "cd gizo-ios-sdk-alpha ..."
-cd gizo-ios-sdk-alpha
-
-
-# 12. Launch prepare_package script within cloned repo
-echo "sh prepare_package.sh $FRAMEWORK_VERSION $FRAMEWORK_NAME..."
-sh prepare_package.sh $FRAMEWORK_VERSION $FRAMEWORK_NAME
-
-# 13. Remove old gizo-ios-sdk-alpha folder
-echo "Remove old gizo-ios-sdk-alpha folder"
-rm -rf gizo-ios-sdk-alpha
+#
+## 1. Remove old data for prevent issues for the new data
+#echo "Remove old xcframework resources..."
+#rm -rf "$FRAMEWORK_NAME.xcframework"
+#rm -rf archives
+#rm -rf gizo-ios
+#
+## 9. Clone distribution framework to manage from here the release and distribution via SPM
+#echo "Cloning distribution framework..."
+#git clone https://github.com/Tetromize/gizo-ios-sdk-without-ai-source.git gizo-ios
+#
+## 10. Move XCFramework generated to the Distribution repository
+#echo "Move XCFramework inside cloned repo..."
+#mv ${FRAMEWORK_NAME}.xcframework.zip gizo-ios
+#
+## 11. Place to the cloned repo directory
+#echo "gizo-ios ..."
+#cd gizo-ios
+#
+#
+## 12. Launch prepare_package script within cloned repo
+#echo "sh prepare_package.sh $FRAMEWORK_VERSION $FRAMEWORK_NAME..."
+#sh prepare_package.sh $FRAMEWORK_VERSION $FRAMEWORK_NAME
+#
+## 13. Remove old gizo-ios-sdk-alpha folder
+#echo "Remove old gizo-ios-sdk-alpha folder"
+#rm -rf gizo-ios

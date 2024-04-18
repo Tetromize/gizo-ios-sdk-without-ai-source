@@ -10,13 +10,13 @@ import UIKit
 import AVFoundation
 import CoreLocation
 
-class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDelegate, MotionManagerDelegate, ThermalMonitorDelegate {
+class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate, ThermalMonitorDelegate {
     
     private var orientationText: String!
-    private var videoCaptureManager: VideoCaptureManager?
+//    private var videoCaptureManager: VideoCaptureManager?
     private var lastWarnTime: Date?
     private var isCoverHidden: Bool=false
-    private var videoIndex: Int=0
+//    private var videoIndex: Int=0
     public var cacheManager: TripCacheManager = TripCacheManager.init()
     private var gpsTimer: DispatchSourceTimer?
     private var imuTimer: DispatchSourceTimer?
@@ -25,8 +25,8 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
     public var batteryStatus: BatteryStatus=BatteryStatus.NORMAL
     private var collectUserActivity: Bool=false
     private var collectTTC: Bool=false
-    public var inProgress: Bool=false
-    public var previewAttached: Bool=false
+//    public var inProgress: Bool=false
+//    public var previewAttached: Bool=false
     public var delegate: GizoAnalysisDelegate?
     var gizoOption = GizoCommon.shared.options
     var thermalState: ProcessInfo.ThermalState = .nominal
@@ -41,28 +41,28 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
         }
     }
     
-    func getVideoPath(videoPath: String) -> String {
-        return cacheManager.checkCSVPath(csvPath: videoPath, name: "video", ext: ".mp4", createBlock: nil)
-    }
+//    func getVideoPath(videoPath: String) -> String {
+//        return cacheManager.checkCSVPath(csvPath: videoPath, name: "video", ext: ".mp4", createBlock: nil)
+//    }
     
-    func lockPreview() {
-        videoCaptureManager?.lockPreview()
-    }
-    
-    func unlockPreview(previewView: UIView) {
-        videoCaptureManager?.unlockPreview(previewView)
-    }
-    
-    func attachPreview(previewView: UIView?) {
-        videoCaptureManager?.attachPreview(previewView)
-        if (previewView != nil) {
-            previewAttached = true
-        }
-        else {
-            previewAttached = false
-        }
-        self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
-    }
+//    func lockPreview() {
+//        videoCaptureManager?.lockPreview()
+//    }
+//
+//    func unlockPreview(previewView: UIView) {
+//        videoCaptureManager?.unlockPreview(previewView)
+//    }
+//
+//    func attachPreview(previewView: UIView?) {
+//        videoCaptureManager?.attachPreview(previewView)
+//        if (previewView != nil) {
+//            previewAttached = true
+//        }
+//        else {
+//            previewAttached = false
+//        }
+//        self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
+//    }
     
     func didUpdateMotion(orientation: UIDeviceOrientation, isValidInterface: Bool) {
 
@@ -91,10 +91,10 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
         }
         self.delegate?.onLocationChange(location: CLLocationCoordinate2DMake(model.latitude ?? 0, model.longitude ?? 0), isGpsOn: true)
         self.delegate?.onSpeedChange(speedLimitKph: speedLimit, speedKph: model.speedValue ?? 0)
-        if (!inProgress) {
-            inProgress = true
-            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
-        }
+//        if (!inProgress) {
+//            inProgress = true
+//            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
+//        }
     }
     
     func didUpdateSpeedLimit(speedLimit: Double?) {
@@ -139,9 +139,9 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
 //        }
 //    }
     
-    func onRecordingEvent(_ status: Int32) {
-        self.delegate?.onRecordingEvent(status: VideoRecordStatus(rawValue: Int(status))!)
-    }
+//    func onRecordingEvent(_ status: Int32) {
+//        self.delegate?.onRecordingEvent(status: VideoRecordStatus(rawValue: Int(status))!)
+//    }
     
 //    func getTTC(depth: Double?, speed: Double) -> Double {
 //        if (speed < 13.89) {
@@ -270,16 +270,16 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
     func initialVideoCapture(){
         
 //        let analysisSetting = self.gizoOption?.analysisSetting
-        let videoSetting = self.gizoOption?.videoSetting
-        if(
-//            (analysisSetting?.allowAnalysis != nil && analysisSetting?.allowAnalysis ?? false) ||
-           (videoSetting?.allowRecording != nil && videoSetting?.allowRecording ?? false)){
-            UIApplication.shared.isIdleTimerDisabled = true
-            videoCaptureManager = VideoCaptureManager()
-            
-            videoCaptureManager?.delegate = self;
-            videoCaptureManager?.startVideoCapture()
-        }
+//        let videoSetting = self.gizoOption?.videoSetting
+//        if(
+////            (analysisSetting?.allowAnalysis != nil && analysisSetting?.allowAnalysis ?? false) ||
+//           (videoSetting?.allowRecording != nil && videoSetting?.allowRecording ?? false)){
+//            UIApplication.shared.isIdleTimerDisabled = true
+//            videoCaptureManager = VideoCaptureManager()
+//
+//            videoCaptureManager?.delegate = self;
+//            videoCaptureManager?.startVideoCapture()
+//        }
         
         let userActivitySetting = gizoOption?.userActivitySetting
         if (userActivitySetting?.allowUserActivity != nil && (userActivitySetting?.allowUserActivity)!) {
@@ -318,10 +318,10 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
             self.thermalMonitor?.currentThermal()
         }
         
-        if (!inProgress) {
-            inProgress = true
-            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
-        }
+//        if (!inProgress) {
+//            inProgress = true
+//            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
+//        }
     }
     
     func startRecording() {
@@ -335,14 +335,14 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
 //            collectTTC = true
 //        }
         
-        let videoSetting = gizoOption?.videoSetting
-        if (videoSetting?.allowRecording != nil && (videoSetting?.allowRecording)!) {
-            if (videoCaptureManager != nil && !(videoCaptureManager!.isShooting)) {
-                videoIndex += 1
-                let videoPath = getVideoPath(videoPath: (videoSetting?.fileLocation)!)
-                videoCaptureManager?.startVideoRecorder(videoPath)
-            }
-        }
+//        let videoSetting = gizoOption?.videoSetting
+//        if (videoSetting?.allowRecording != nil && (videoSetting?.allowRecording)!) {
+//            if (videoCaptureManager != nil && !(videoCaptureManager!.isShooting)) {
+//                videoIndex += 1
+//                let videoPath = getVideoPath(videoPath: (videoSetting?.fileLocation)!)
+//                videoCaptureManager?.startVideoRecorder(videoPath)
+//            }
+//        }
         
         let gpsSetting = gizoOption?.gpsSetting
         if (gpsSetting?.allowGps != nil && (gpsSetting?.allowGps)!) {
@@ -373,7 +373,7 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
     }
     
     func stopRecording() {
-        videoCaptureManager?.stopVideoRecorder()
+//        videoCaptureManager?.stopVideoRecorder()
 
         if (gpsTimer != nil) {
             gpsTimer?.cancel()
@@ -391,8 +391,8 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
     }
     
     func stopVideoCapture(){
-        videoCaptureManager?.delegate = nil
-        videoCaptureManager?.stopVideoCapture()
+//        videoCaptureManager?.delegate = nil
+//        videoCaptureManager?.stopVideoCapture()
         
         LocationManager.shared.delegate = nil
         LocationManager.shared.stopLocation()
@@ -406,10 +406,10 @@ class DriveManager : NSObject, VideoCaptureManagerDelegate, MBLocationManagerDel
         NotificationCenter.default.removeObserver(self)
         UIDevice.current.isBatteryMonitoringEnabled = false
                 
-        if (inProgress) {
-            inProgress = false
-            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
-        }
+//        if (inProgress) {
+//            inProgress = false
+//            self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
+//        }
     }
     
     func writeToGpsCsv(){

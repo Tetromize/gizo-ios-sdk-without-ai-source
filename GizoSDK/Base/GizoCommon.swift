@@ -21,13 +21,13 @@ public enum BatteryStatus: Int {
     case LOW_BATTERY_STOP = 2
 }
 
-public enum VideoRecordStatus: Int {
-    case Start = 0
-    case Stop = 1
-    case Pause = 2
-    case Resume = 3
-    case Status = 4
-}
+//public enum VideoRecordStatus: Int {
+//    case Start = 0
+//    case Stop = 1
+//    case Pause = 2
+//    case Resume = 3
+//    case Status = 4
+//}
 
 //public enum TTCStatus: Int {
 //    case None = 0
@@ -40,13 +40,13 @@ public protocol GizoDelegate : NSObjectProtocol {
 }
 
 public protocol GizoAnalysisDelegate : NSObjectProtocol {
-    func onSessionStatus(inProgress: Bool, previewAttached: Bool)
+//    func onSessionStatus(inProgress: Bool, previewAttached: Bool)
 //    func onAnalysisResult(preview: UIImage?, ttc: Float?, ttcStatus: TTCStatus, frontObjectDistance: Double?, egoSpeed: Int?, gpsTime: String)
 //    func ttcCalculator(frontObjectDistance: Double?, egoSpeed: Int?, ttc: Float?)
 //    func ttcStatusCalculator(ttc: Float?, egoSpeed: Int?, ttcStatus: TTCStatus)
     func onLocationChange(location: CLLocationCoordinate2D?, isGpsOn: Bool?)
     func onSpeedChange(speedLimitKph: Int?, speedKph: Int)
-    func onRecordingEvent(status: VideoRecordStatus)
+//    func onRecordingEvent(status: VideoRecordStatus)
     func onBatteryStatusChange(status: BatteryStatus)
     func onGravityAlignmentChange(isAlign: Bool)
     func onLinearAccelerationSensor(accLinX: Double?, accLinY: Double?, accLinZ: Double?)
