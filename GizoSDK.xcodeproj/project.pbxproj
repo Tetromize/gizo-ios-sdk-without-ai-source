@@ -57,7 +57,7 @@
 		1B94CFFB2B158D5900962330 /* TripCSVActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE42B158D5900962330 /* TripCSVActivityModel.swift */; };
 		1B94CFFD2B158D5900962330 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE62B158D5900962330 /* LocationModel.swift */; };
 		2A3F3B622BD14411009F04F2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B612BD14411009F04F2 /* CameraManager.swift */; };
-		2A3F3B6F2BD154CB009F04F2 /* GizoSDK.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */; };
+		2A3F3B6F2BD154CB009F04F2 /* TetromizeSDK.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B6E2BD154CB009F04F2 /* TetromizeSDK.podspec */; };
 		2A3F3B712BD15590009F04F2 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B702BD15590009F04F2 /* LICENSE */; };
 		2A5315C22B739E5A007B51EB /* GizoUserActivitySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */; };
 		2A5315D22B7668A9007B51EB /* LogActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D12B7668A9007B51EB /* LogActivityModel.swift */; };
@@ -108,7 +108,7 @@
 		1B94CFE42B158D5900962330 /* TripCSVActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVActivityModel.swift; sourceTree = "<group>"; };
 		1B94CFE62B158D5900962330 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		2A3F3B612BD14411009F04F2 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
-		2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GizoSDK.podspec; sourceTree = "<group>"; };
+		2A3F3B6E2BD154CB009F04F2 /* TetromizeSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TetromizeSDK.podspec; sourceTree = "<group>"; };
 		2A3F3B702BD15590009F04F2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoUserActivitySetting.swift; sourceTree = "<group>"; };
 		2A5315D12B7668A9007B51EB /* LogActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogActivityModel.swift; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		1B8918CF2B05B44B00185633 = {
 			isa = PBXGroup;
 			children = (
-				2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */,
+				2A3F3B6E2BD154CB009F04F2 /* TetromizeSDK.podspec */,
 				2A3F3B702BD15590009F04F2 /* LICENSE */,
 				1B8918DB2B05B44B00185633 /* GizoSDK */,
 				1B8918DA2B05B44B00185633 /* Products */,
@@ -416,7 +416,7 @@
 				1B94CFFA2B158D5900962330 /* TripCSVGPSModel.swift in Sources */,
 				1B82D5D72B1DF32E00CA8FE4 /* GizoGpsSetting.swift in Sources */,
 				1B82D5DD2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift in Sources */,
-				2A3F3B6F2BD154CB009F04F2 /* GizoSDK.podspec in Sources */,
+				2A3F3B6F2BD154CB009F04F2 /* TetromizeSDK.podspec in Sources */,
 				1B7794522B4022D8000D4074 /* TokenValidateManager.swift in Sources */,
 				1B66B3462B1EC2F9005822CF /* GizoCommon.swift in Sources */,
 				1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */,
