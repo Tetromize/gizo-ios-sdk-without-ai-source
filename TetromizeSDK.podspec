@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Tetromize/gizo-ios-sdk-without-ai-source.git', :tag => s.version }
   s.ios.deployment_target = '13.0'
   s.source_files     = 'GizoSDK/**/*.{h,m,mm,swift}'
-  s.resources        = 'GizoSDK/**/*.{bundle}'
   s.dependency 'MapboxMaps', '10.12.3'
   s.dependency 'MapboxNavigation', '2.12.0'
   s.dependency 'SnapKit', '5.6.0'

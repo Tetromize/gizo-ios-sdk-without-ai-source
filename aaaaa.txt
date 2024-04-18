@@ -1,0 +1,617 @@
+Last login: Thu Apr 18 12:38:46 on ttys002
+/Users/meysamfarmani/.zshrc:source:7: no such file or directory: /Users/meysamfarmani/.rvm/scripts/rvm
+meysamfarmani@Meysams-MacBook-Pro ~ % cd ~/Library/Developer/Xcode/DerivedData
+meysamfarmani@Meysams-MacBook-Pro DerivedData % ls
+Alamofire-aclxkhzeshsewzchwnzooqpcoitg
+App-aiagiufhznrnbugulbfyvfbgdtsd
+App-atpvnjsohsvlqgdjuzlxustpsxbl
+App-bshiutbicnlcnhgkfhvztxzdizap
+App-ctkulmkcprlpeseqkkhctjclsvfr
+App-dogpjvhhzsdyesbhfxtuxaagqkeo
+App-dsyvuytcwrsknpaqgjstunnmtsxm
+App-dztfplrledtkykhcadrlkwslaafk
+App-efmkptrzychvguaisvfsoxbwkkke
+App-ehxxvewkcwumolasbfmxtenfndtw
+App-eiodycdpeajyhddyuomdikpdwqve
+App-fcrngbfzhqwlyzdiebvznxlyroem
+App-fhipugccshfnwjgkxadbdjkvqdic
+App-fjpsfzcbcfpkluambarulzrkchzy
+App-fmzdelgxosmtiufgjyirrnpgtmct
+App-fnmvgbyisazfxqcmcmtpxmsgsvnc
+App-fonbagxpcxlboifkkvwgpcjdacfa
+App-gdgxscgpaejfwoduuhfmrbfdhtmt
+App-gtppeeisgntuevcsxmpchyhjnhgs
+AppCircleSampleProject-dswhbjgkkvtgtwbqygbswytpffrr
+Gizo-alvlfrcqpxthzlbxsdsqhqgthlpu
+GizoSDK-ccfzskhozdsvteeophymmbejbclk
+GizoSDK-clnayfuonychswcruiknbjcxomwv
+GizoSDK-dfamakvkdcytczcratnzfoowemyl
+GizoSDK-dzebbhmzhhoiawdfojnxxfkqlumj
+GizoSDKWithoutAI-gjenkbzolusxlkdqylpdwzceojim
+ModuleCache.noindex
+SDKStatCaches.noindex
+SymbolCache.noindex
+TestAPPWithoutAI-fbavmvcxftovithgjovarioacsmm
+TestAPPWithoutAI-gezrvlrtvmhvwndfoaxddfqouymz
+TestDemo-bigsckondxmpxpbdpcujxdifqbqr
+TestDemo-evcykkvlnepbcaetasalakpjxalf
+TestDemo-fbnghuuotollcfcaroqljfyrcaiu
+TestDemo2-bwtctzdqneaojjegsdbetkzpulei
+TestDemoWithoutAI-ekuvlzzqcsvinafafkfuzxbvoebx
+TestDemoWithoutAI-eoalqpkiukglmhgimqqrqhunzvjv
+gizo-ios-sdk-alpha-ciodvuhudaxwdfastmbripixmwfn
+gizo-ios-sdk-without-ai-source-glefgzutdejtrncdnzapqodbjvcz
+testCocoapodsAndSPM-cxknswxhdusiwtekrcjrlpqfwtsk
+testCocoapodsAndSPM-hbplksmtjxtnhvehadvuohxtmwef
+test_without_ai-fdjccvkzlkqektfolrwdoukrzzuz
+meysamfarmani@Meysams-MacBook-Pro DerivedData % rm -rf TestAPPWithoutAI-gezrvlrtvmhvwndfoaxddfqouymz
+meysamfarmani@Meysams-MacBook-Pro DerivedData % rm -rf TestAPPWithoutAI-fbavmvcxftovithgjovarioacsmm
+meysamfarmani@Meysams-MacBook-Pro DerivedData % ls
+Alamofire-aclxkhzeshsewzchwnzooqpcoitg
+App-aiagiufhznrnbugulbfyvfbgdtsd
+App-atpvnjsohsvlqgdjuzlxustpsxbl
+App-bshiutbicnlcnhgkfhvztxzdizap
+App-ctkulmkcprlpeseqkkhctjclsvfr
+App-dogpjvhhzsdyesbhfxtuxaagqkeo
+App-dsyvuytcwrsknpaqgjstunnmtsxm
+App-dztfplrledtkykhcadrlkwslaafk
+App-efmkptrzychvguaisvfsoxbwkkke
+App-ehxxvewkcwumolasbfmxtenfndtw
+App-eiodycdpeajyhddyuomdikpdwqve
+App-fcrngbfzhqwlyzdiebvznxlyroem
+App-fhipugccshfnwjgkxadbdjkvqdic
+App-fjpsfzcbcfpkluambarulzrkchzy
+App-fmzdelgxosmtiufgjyirrnpgtmct
+App-fnmvgbyisazfxqcmcmtpxmsgsvnc
+App-fonbagxpcxlboifkkvwgpcjdacfa
+App-gdgxscgpaejfwoduuhfmrbfdhtmt
+App-gtppeeisgntuevcsxmpchyhjnhgs
+AppCircleSampleProject-dswhbjgkkvtgtwbqygbswytpffrr
+Gizo-alvlfrcqpxthzlbxsdsqhqgthlpu
+GizoSDK-ccfzskhozdsvteeophymmbejbclk
+GizoSDK-clnayfuonychswcruiknbjcxomwv
+GizoSDK-dfamakvkdcytczcratnzfoowemyl
+GizoSDK-dzebbhmzhhoiawdfojnxxfkqlumj
+GizoSDKWithoutAI-gjenkbzolusxlkdqylpdwzceojim
+ModuleCache.noindex
+SDKStatCaches.noindex
+SymbolCache.noindex
+TestDemo-bigsckondxmpxpbdpcujxdifqbqr
+TestDemo-evcykkvlnepbcaetasalakpjxalf
+TestDemo-fbnghuuotollcfcaroqljfyrcaiu
+TestDemo2-bwtctzdqneaojjegsdbetkzpulei
+TestDemoWithoutAI-ekuvlzzqcsvinafafkfuzxbvoebx
+TestDemoWithoutAI-eoalqpkiukglmhgimqqrqhunzvjv
+gizo-ios-sdk-alpha-ciodvuhudaxwdfastmbripixmwfn
+gizo-ios-sdk-without-ai-source-glefgzutdejtrncdnzapqodbjvcz
+testCocoapodsAndSPM-cxknswxhdusiwtekrcjrlpqfwtsk
+testCocoapodsAndSPM-hbplksmtjxtnhvehadvuohxtmwef
+test_without_ai-fdjccvkzlkqektfolrwdoukrzzuz
+meysamfarmani@Meysams-MacBook-Pro DerivedData % cd ~/workspace 
+meysamfarmani@Meysams-MacBook-Pro workspace % ls
+Gizo-ios			gizo-ios-sdk-source
+GizoSDK				gizo-ios-sdk-without-ai-sample
+GizoSDK.xcworkspace		gizo-ios-sdk-without-ai-source
+GizoSDKCocopods			gizo-traffic-density
+TestAPPWithoutAI		sample
+gizo-android-app		test
+gizo-ios-app-tetromize		test without ai
+gizo-ios-sdk-alpha		testCocoapodsAndSPM
+gizo-ios-sdk-sample		todo
+gizo-ios-sdk-sample-advanced
+meysamfarmani@Meysams-MacBook-Pro workspace % cd TestAPPWithoutAI
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 3 dependencies from the Podfile and 13 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `15.0` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % 
+  [Restored Apr 18, 2024 at 10:41:58 PM]
+Last login: Thu Apr 18 22:41:58 on ttys000
+Restored session: Thu Apr 18 22:41:08 +0330 2024
+/Users/meysamfarmani/.zshrc:source:7: no such file or directory: /Users/meysamfarmani/.rvm/scripts/rvm
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 3 dependencies from the Podfile and 13 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `15.0` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 3 dependencies from the Podfile and 13 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `15.0` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Removing MapboxCommon
+Removing MapboxCoreMaps
+Removing MapboxCoreNavigation
+Removing MapboxDirections
+Removing MapboxMaps
+Removing MapboxMobileEvents
+Removing MapboxNavigation
+Removing MapboxNavigationNative
+Removing MapboxSpeech
+Removing Polyline
+Removing SnapKit
+Removing Solar-dev
+Removing Turf
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 0 dependencies from the Podfile and 0 total pods installed.
+
+[!] The Podfile does not contain any dependencies.
+
+[!] Automatically assigning platform `iOS` with version `15.2` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Installing MapboxCommon (23.4.0)
+Installing MapboxCoreMaps (10.12.3)
+Installing MapboxCoreNavigation (2.12.0)
+Installing MapboxDirections (2.10.0)
+Installing MapboxMaps (10.12.3)
+Installing MapboxMobileEvents (1.0.10)
+Installing MapboxNavigation (2.12.0)
+Installing MapboxNavigationNative (130.0.0)
+Installing MapboxSpeech (2.1.1)
+Installing Polyline (5.1.0)
+Installing SnapKit (5.6.0)
+Installing Solar-dev (3.0.1)
+Installing Turf (2.6.1)
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 3 dependencies from the Podfile and 13 total pods installed.
+
+[!] Automatically assigning platform `iOS` with version `15.2` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % pod install
+Analyzing dependencies
+Downloading dependencies
+Removing MapboxCommon
+Removing MapboxCoreMaps
+Removing MapboxCoreNavigation
+Removing MapboxDirections
+Removing MapboxMaps
+Removing MapboxMobileEvents
+Removing MapboxNavigation
+Removing MapboxNavigationNative
+Removing MapboxSpeech
+Removing Polyline
+Removing SnapKit
+Removing Solar-dev
+Removing Turf
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 0 dependencies from the Podfile and 0 total pods installed.
+
+[!] The Podfile does not contain any dependencies.
+
+[!] Automatically assigning platform `iOS` with version `15.2` on target `TestAPPWithoutAI` because no platform was specified. Please specify a platform for this target in your Podfile. See `https://guides.cocoapods.org/syntax/podfile.html#platform`.
+meysamfarmani@Meysams-MacBook-Pro TestAPPWithoutAI % cd ..
+meysamfarmani@Meysams-MacBook-Pro workspace % pod lib create GizoSDK-iOS   
+Cloning `https://github.com/CocoaPods/pod-template.git` into `GizoSDK-iOS`.
+Configuring GizoSDK-iOS template.
+Ignoring ffi-1.16.3 because its extensions are not built. Try: gem pristine ffi --version 1.16.3
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:313:in `to_specs': Could not find 'rexml' (~> 3.2.4) - did find: [rexml-3.1.9.1] (Gem::MissingSpecVersionError)
+Checked in 'GEM_PATH=/Users/meysamfarmani/.gem/ruby/2.6.0:/Library/Ruby/Gems/2.6.0:/opt/homebrew/Cellar/cocoapods/1.15.0/libexec:/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0', execute `gem env` for more information
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1449:in `block in activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `each'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1420:in `activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:223:in `rescue in try_activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:216:in `try_activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:123:in `rescue in require'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:34:in `require'
+	from /Users/meysamfarmani/workspace/GizoSDK-iOS/setup/ProjectManipulator.rb:1:in `<top (required)>'
+	from ./configure:5:in `require_relative'
+	from ./configure:5:in `block in <main>'
+	from ./configure:4:in `each'
+	from ./configure:4:in `<main>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/dependency.rb:313:in `to_specs': Could not find 'rexml' (~> 3.2.4) - did find: [rexml-3.1.9.1] (Gem::MissingSpecVersionError)
+Checked in 'GEM_PATH=/Users/meysamfarmani/.gem/ruby/2.6.0:/Library/Ruby/Gems/2.6.0:/opt/homebrew/Cellar/cocoapods/1.15.0/libexec:/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0', execute `gem env` for more information
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1449:in `block in activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `each'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1438:in `activate_dependencies'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/specification.rb:1420:in `activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems.rb:217:in `try_activate'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:123:in `rescue in require'
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:34:in `require'
+	from /Users/meysamfarmani/workspace/GizoSDK-iOS/setup/ProjectManipulator.rb:1:in `<top (required)>'
+	from ./configure:5:in `require_relative'
+	from ./configure:5:in `block in <main>'
+	from ./configure:4:in `each'
+	from ./configure:4:in `<main>'
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- xcodeproj (LoadError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /Users/meysamfarmani/workspace/GizoSDK-iOS/setup/ProjectManipulator.rb:1:in `<top (required)>'
+	from ./configure:5:in `require_relative'
+	from ./configure:5:in `block in <main>'
+	from ./configure:4:in `each'
+	from ./configure:4:in `<main>'
+
+To learn more about the template see `https://github.com/CocoaPods/pod-template.git`.
+To learn more about creating a new pod, see `https://guides.cocoapods.org/making/making-a-cocoapod`.
+meysamfarmani@Meysams-MacBook-Pro workspace % pod trunk register farmani.meysam2@gmail.com 'Meysam Farmani'
+[!] Please verify the session by clicking the link in the verification email that has been sent to farmani.meysam2@gmail.com
+meysamfarmani@Meysams-MacBook-Pro workspace % ls          
+Gizo-ios			gizo-ios-sdk-sample-advanced
+GizoSDK				gizo-ios-sdk-source
+GizoSDK-iOS			gizo-ios-sdk-without-ai-sample
+GizoSDK.xcworkspace		gizo-ios-sdk-without-ai-source
+GizoSDKCocopods			gizo-traffic-density
+TestAPPWithoutAI		sample
+gizo-android-app		test
+gizo-ios-app-tetromize		test without ai
+gizo-ios-sdk-alpha		testCocoapodsAndSPM
+gizo-ios-sdk-sample		todo
+meysamfarmani@Meysams-MacBook-Pro workspace % cd gizo-ios-sdk-without-ai-source
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] file patterns: The `resources` pattern did not match any file.
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-fdnmrlehozwgnxdjuhvmftxrmwmi/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+
+[!] TetromizeSDK did not pass validation, due to 2 errors.
+You can use the `--no-clean` option to inspect any issue.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ekkbebefmmrqzebufqednwcycwqs/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+
+[!] TetromizeSDK did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint --no-clean
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-ghsojkndhpfkfogvttyutmsohitr/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+
+Pods workspace available at `/var/folders/1s/nqrp93t128q0gbp1zpfm4w1m0000gn/T/CocoaPods-Lint-20240419-22505-ozajuj-TetromizeSDK/App.xcworkspace` for inspection.
+
+[!] TetromizeSDK did not pass validation, due to 1 error.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint --no-clean
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-cfwnwdvwoifrzrgekadzgwhidkws/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+
+Pods workspace available at `/var/folders/1s/nqrp93t128q0gbp1zpfm4w1m0000gn/T/CocoaPods-Lint-20240419-23082-ovdubr-TetromizeSDK/App.xcworkspace` for inspection.
+
+[!] TetromizeSDK did not pass validation, due to 1 error.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint --no-clean
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsvdgfqtsxaxqxeeoivtikmiwsqp/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+
+Pods workspace available at `/var/folders/1s/nqrp93t128q0gbp1zpfm4w1m0000gn/T/CocoaPods-Lint-20240419-23377-m20g8-TetromizeSDK/App.xcworkspace` for inspection.
+
+[!] TetromizeSDK did not pass validation, due to 1 error.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod lib lint --no-clean
+
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgcodecs/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h'
+    - NOTE  | [iOS] xcodebuild:  error: Multiple commands produce '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/core/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  note: Target 'TetromizeSDK' (project 'Pods') has copy command from '/Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h' to '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h'
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/GizoSDK.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/GizoSDK/Sources/GizoSDK/GizoSDK.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/photo/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/video/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/constants_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/videoio/legacy/constants_c.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/features2d/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/interface.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/hal/interface.h (in target 'TetromizeSDK' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  warning: duplicate output file '/Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h' on task: CpHeader /Users/meysamfarmani/Library/Developer/Xcode/DerivedData/App-dsqnkzzlzhxddlfqxluqlyuwvyzd/Build/Products/Release-iphonesimulator/TetromizeSDK/TetromizeSDK.framework/Headers/types_c.h /Users/meysamfarmani/workspace/gizo-ios-sdk-without-ai-source/GizoSDK/ThirdLibs/opencv2.framework/Versions/A/Headers/imgproc/types_c.h (in target 'TetromizeSDK' from project 'Pods')
+
+Pods workspace available at `/var/folders/1s/nqrp93t128q0gbp1zpfm4w1m0000gn/T/CocoaPods-Lint-20240419-23560-dhr7w2-TetromizeSDK/App.xcworkspace` for inspection.
+
+[!] TetromizeSDK did not pass validation, due to 1 error.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % pod trunk push
+
+[!] Found podspec `TetromizeSDK.podspec`
+Updating spec repo `trunk`
+Validating podspec
+ -> TetromizeSDK (1.0.0)
+    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.
+    - NOTE  | xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [iOS] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'MapboxSpeech' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'Polyline' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'Turf' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/zh-Hant.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/zh-Hant.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/zh-Hans.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/zh-Hans.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/vi.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/vi.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/uk.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/uk.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/sv.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/sv.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ru.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ru.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/pt-BR.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/pt-BR.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/lt.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/lt.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ko.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ko.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ja.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ja.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/he.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/he.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/gl.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/gl.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/fr.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/fr.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/es.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/es.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/en.lproj/OrnamentsLocalizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/en.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/en.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/de.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/de.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/da.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/da.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/cs.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/cs.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ca.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/ca.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/bg.lproj/CompassDirectionShort.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxMaps/Sources/MapboxMaps/Ornaments/Compass/bg.lproj/CompassDirectionLong.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxMaps-MapboxMapsResources' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'SnapKit' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'MapboxDirections' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/zh-Hant.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/zh-Hans.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/yo.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/vi.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/uk.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/tr.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/sv.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/sl.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/ru.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/pt-PT.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/pt-BR.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/nl.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/lt.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/ko.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/ja.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/it.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/hu.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/he.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/fr.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/es.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/es-ES.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/en.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/el.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/de.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/da.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/ca.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/bg.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxCoreNavigation/Sources/MapboxCoreNavigation/Resources/ar.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'MapboxMaps' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'MapboxCoreNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/zh-Hant.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/zh-Hant.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/zh-Hans.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/zh-Hans.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/yo.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/yo.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/vi.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/vi.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/uk.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/uk.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/tr.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/tr.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/sv.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/sv.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/sl.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/sl.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ru.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ru.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/pt-PT.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/pt-PT.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/pt-BR.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/pt-BR.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/nl.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/nl.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/lt.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/lt.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ko.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ko.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ja.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ja.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/it.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/it.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-16) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/hu.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/hu.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/he.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/he.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/fr.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/fr.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/es.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/es.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/es-ES.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/es-ES.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/en.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/en.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/el.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/de.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/de.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/da.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/da.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ca.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ca.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/bg.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/bg.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ar.lproj/Localizable.stringsdict:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  MapboxNavigation/Sources/MapboxNavigation/Resources/ar.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | xcodebuild:  <module-includes>:1:9: note: in file included from <module-includes>:1:
+    - NOTE  | xcodebuild:  Target Support Files/TetromizeSDK/TetromizeSDK-umbrella.h:13:9: note: in file included from Target Support Files/TetromizeSDK/TetromizeSDK-umbrella.h:13:
+    - ERROR | xcodebuild:  TetromizeSDK/GizoSDK/GizoSDK.h:18:9: error: 'GizoSDK/VideoCaptureManager.h' file not found
+    - NOTE  | xcodebuild:  <unknown>:0: error: could not build Objective-C module 'TetromizeSDK'
+    - NOTE  | [iOS] xcodebuild:  note: Metadata extraction skipped. No AppIntents.framework dependency found. (in target 'MapboxNavigation' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'MapboxMobileEvents' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 9.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'Solar-dev' from project 'Pods')
+    - NOTE  | [iOS] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 10.0, but the range of supported deployment target versions is 11.0 to 16.4.99. (in target 'SnapKit' from project 'Pods')
+
+[!] The spec did not pass validation, due to 2 errors.
+meysamfarmani@Meysams-MacBook-Pro gizo-ios-sdk-without-ai-source % 

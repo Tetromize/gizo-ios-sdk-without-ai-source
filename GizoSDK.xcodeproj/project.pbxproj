@@ -45,9 +45,6 @@
 		1B8919062B05C12C00185633 /* MTAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E82B05C12C00185633 /* MTAlert.swift */; };
 		1B8919072B05C12C00185633 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E92B05C12C00185633 /* PythonManager.swift */; };
 		1B8919102B05C12C00185633 /* DateTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F22B05C12C00185633 /* DateTimeUtil.swift */; };
-		1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */; };
-		1B8919172B05C12C00185633 /* LetterBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */; };
-		1B89191C2B05C12C00185633 /* OpenCVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FF2B05C12C00185633 /* OpenCVManager.swift */; };
 		1B94CFE82B158D5900962330 /* TripCSVIMUModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */; };
 		1B94CFF72B158D5900962330 /* TripCSVTTCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */; };
 		1B94CFF92B158D5900962330 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE22B158D5900962330 /* BaseModel.swift */; };
@@ -60,6 +57,8 @@
 		2A5315C22B739E5A007B51EB /* GizoUserActivitySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */; };
 		2A5315D22B7668A9007B51EB /* LogActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D12B7668A9007B51EB /* LogActivityModel.swift */; };
 		2A5315D42B7B4153007B51EB /* ThermalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D32B7B4153007B51EB /* ThermalManager.swift */; };
+		2A558B872BD1D27600F14202 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 2A558B862BD1D27600F14202 /* MapboxCoreNavigation */; };
+		2A558B892BD1D27600F14202 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 2A558B882BD1D27600F14202 /* MapboxNavigation */; };
 		2A6DB6AE2BBD809E003B0011 /* TripCSVAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AD2BBD809E003B0011 /* TripCSVAppModel.swift */; };
 		2A6DB6B02BBD80CD003B0011 /* TripCSVPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AF2BBD80CD003B0011 /* TripCSVPhoneModel.swift */; };
 /* End PBXBuildFile section */
@@ -93,9 +92,6 @@
 		1B8918E82B05C12C00185633 /* MTAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAlert.swift; sourceTree = "<group>"; };
 		1B8918E92B05C12C00185633 /* PythonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
 		1B8918F22B05C12C00185633 /* DateTimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeUtil.swift; sourceTree = "<group>"; };
-		1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifiedCamConversion.swift; sourceTree = "<group>"; };
-		1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterBoxModel.swift; sourceTree = "<group>"; };
-		1B8918FF2B05C12C00185633 /* OpenCVManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVManager.swift; sourceTree = "<group>"; };
 		1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVIMUModel.swift; sourceTree = "<group>"; };
 		1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVTTCModel.swift; sourceTree = "<group>"; };
 		1B94CFE22B158D5900962330 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -118,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A558B872BD1D27600F14202 /* MapboxCoreNavigation in Frameworks */,
+				2A558B892BD1D27600F14202 /* MapboxNavigation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,22 +196,12 @@
 				1B82D5BA2B1DE50500CA8FE4 /* MotionManager.swift */,
 				1B8918F22B05C12C00185633 /* DateTimeUtil.swift */,
 				1B8918E82B05C12C00185633 /* MTAlert.swift */,
-				1B8918F72B05C12C00185633 /* OpenCV2 */,
 				1B8918E92B05C12C00185633 /* PythonManager.swift */,
 				2A5315D12B7668A9007B51EB /* LogActivityModel.swift */,
 				2A5315D32B7B4153007B51EB /* ThermalManager.swift */,
 				2A3F3B612BD14411009F04F2 /* CameraManager.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		1B8918F72B05C12C00185633 /* OpenCV2 */ = {
-			isa = PBXGroup;
-			children = (
-				1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */,
-				1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */,
-			);
-			path = OpenCV2;
 			sourceTree = "<group>";
 		};
 		1B94CFD02B158D5900962330 /* Model */ = {
@@ -277,6 +265,8 @@
 			);
 			name = GizoSDK;
 			packageProductDependencies = (
+				2A558B862BD1D27600F14202 /* MapboxCoreNavigation */,
+				2A558B882BD1D27600F14202 /* MapboxNavigation */,
 			);
 			productName = GizoSDK;
 			productReference = 1B8918D92B05B44B00185633 /* GizoSDK.framework */;
@@ -310,6 +300,7 @@
 			);
 			mainGroup = 1B8918CF2B05B44B00185633;
 			packageReferences = (
+				2A558B852BD1D27600F14202 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
 			);
 			productRefGroup = 1B8918DA2B05B44B00185633 /* Products */;
 			projectDirPath = "";
@@ -378,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8919172B05C12C00185633 /* LetterBoxModel.swift in Sources */,
 				2A3F3B622BD14411009F04F2 /* CameraManager.swift in Sources */,
 				1B7794542B4025B2000D4074 /* HttpManager.swift in Sources */,
 				1B82D5E32B1DF9C300CA8FE4 /* Gizo.swift in Sources */,
@@ -389,7 +379,6 @@
 				1B82D5BD2B1DE50500CA8FE4 /* MotionManager.swift in Sources */,
 				2A6DB6B02BBD80CD003B0011 /* TripCSVPhoneModel.swift in Sources */,
 				1B82D5BF2B1DE50500CA8FE4 /* MotionActivityManager.swift in Sources */,
-				1B89191C2B05C12C00185633 /* OpenCVManager.swift in Sources */,
 				1B94CFFD2B158D5900962330 /* LocationModel.swift in Sources */,
 				1B82D5E72B1DFE0600CA8FE4 /* GizoAnalysis.swift in Sources */,
 				1B7794502B4022B2000D4074 /* RSACrypt.swift in Sources */,
@@ -409,7 +398,6 @@
 				2A3F3B6F2BD154CB009F04F2 /* TetromizeSDK.podspec in Sources */,
 				1B7794522B4022D8000D4074 /* TokenValidateManager.swift in Sources */,
 				1B66B3462B1EC2F9005822CF /* GizoCommon.swift in Sources */,
-				1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */,
 				1B82D5C42B1DE81E00CA8FE4 /* TripCacheManager.swift in Sources */,
 				1B82D5BE2B1DE50500CA8FE4 /* LocationManager.swift in Sources */,
 				1B82D5D92B1DF42A00CA8FE4 /* GizoImuSetting.swift in Sources */,
@@ -678,6 +666,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A558B852BD1D27600F14202 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A558B862BD1D27600F14202 /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A558B852BD1D27600F14202 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		2A558B882BD1D27600F14202 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A558B852BD1D27600F14202 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B8918D02B05B44B00185633 /* Project object */;
 }
