@@ -4,16 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "GizoSDK-iOS",
-        defaultLocalization: "en",
-
+    name: "GizoSDK",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "GizoSDK-iOS",
-            targets: ["GizoSDK-iOS"]),
+            name: "GizoSDK",
+            targets: ["GizoSDK"]),
     ],
     dependencies: [
     .package(name: "MapboxMaps", url: "https://github.com/mapbox/mapbox-maps-ios.git", .exact("10.12.3")),
@@ -24,14 +22,9 @@ let package = Package(
             name: "GizoSDK",
             path: "GizoSDK"),
             dependencies: ["MapboxMaps", "MapboxNavigation"],
-            resources: [.copy("Gizo.bundle")],
-            linkerSettings: [
-                .linkedLibrary("z"),
-                .linkedLibrary("bz2"),
-                .linkedLibrary("sqlite3"),
-                .linkedFramework("CoreML"),
-                .linkedFramework("SystemConfiguration")
-            ]
 
+    ],
+    swiftLanguageVersions: [
+        .v5
     ]
 )
