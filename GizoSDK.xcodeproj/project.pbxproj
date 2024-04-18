@@ -60,11 +60,6 @@
 		2A5315C22B739E5A007B51EB /* GizoUserActivitySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */; };
 		2A5315D22B7668A9007B51EB /* LogActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D12B7668A9007B51EB /* LogActivityModel.swift */; };
 		2A5315D42B7B4153007B51EB /* ThermalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D32B7B4153007B51EB /* ThermalManager.swift */; };
-		2A5881262BD18AED0012F80E /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 2A5881252BD18AED0012F80E /* MapboxMaps */; };
-		2A58812C2BD18B560012F80E /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 2A58812B2BD18B560012F80E /* MapboxCoreNavigation */; };
-		2A58812E2BD18B560012F80E /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 2A58812D2BD18B560012F80E /* MapboxNavigation */; };
-		2A5881312BD18B7D0012F80E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2A5881302BD18B7D0012F80E /* SnapKit */; };
-		2A5881332BD18B7D0012F80E /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2A5881322BD18B7D0012F80E /* SnapKit-Dynamic */; };
 		2A6DB6AE2BBD809E003B0011 /* TripCSVAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AD2BBD809E003B0011 /* TripCSVAppModel.swift */; };
 		2A6DB6B02BBD80CD003B0011 /* TripCSVPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AF2BBD80CD003B0011 /* TripCSVPhoneModel.swift */; };
 /* End PBXBuildFile section */
@@ -123,11 +118,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5881332BD18B7D0012F80E /* SnapKit-Dynamic in Frameworks */,
-				2A58812C2BD18B560012F80E /* MapboxCoreNavigation in Frameworks */,
-				2A5881312BD18B7D0012F80E /* SnapKit in Frameworks */,
-				2A58812E2BD18B560012F80E /* MapboxNavigation in Frameworks */,
-				2A5881262BD18AED0012F80E /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +277,6 @@
 			);
 			name = GizoSDK;
 			packageProductDependencies = (
-				2A5881252BD18AED0012F80E /* MapboxMaps */,
-				2A58812B2BD18B560012F80E /* MapboxCoreNavigation */,
-				2A58812D2BD18B560012F80E /* MapboxNavigation */,
-				2A5881302BD18B7D0012F80E /* SnapKit */,
-				2A5881322BD18B7D0012F80E /* SnapKit-Dynamic */,
 			);
 			productName = GizoSDK;
 			productReference = 1B8918D92B05B44B00185633 /* GizoSDK.framework */;
@@ -325,9 +310,6 @@
 			);
 			mainGroup = 1B8918CF2B05B44B00185633;
 			packageReferences = (
-				2A5881242BD18AED0012F80E /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
-				2A58812A2BD18B560012F80E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
-				2A58812F2BD18B7D0012F80E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 1B8918DA2B05B44B00185633 /* Products */;
 			projectDirPath = "";
@@ -696,61 +678,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2A5881242BD18AED0012F80E /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
-			requirement = {
-				kind = exactVersion;
-				version = 10.12.3;
-			};
-		};
-		2A58812A2BD18B560012F80E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
-			requirement = {
-				kind = exactVersion;
-				version = 2.12.0;
-			};
-		};
-		2A58812F2BD18B7D0012F80E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2A5881252BD18AED0012F80E /* MapboxMaps */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A5881242BD18AED0012F80E /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
-			productName = MapboxMaps;
-		};
-		2A58812B2BD18B560012F80E /* MapboxCoreNavigation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A58812A2BD18B560012F80E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
-			productName = MapboxCoreNavigation;
-		};
-		2A58812D2BD18B560012F80E /* MapboxNavigation */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A58812A2BD18B560012F80E /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
-			productName = MapboxNavigation;
-		};
-		2A5881302BD18B7D0012F80E /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A58812F2BD18B7D0012F80E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		2A5881322BD18B7D0012F80E /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2A58812F2BD18B7D0012F80E /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B8918D02B05B44B00185633 /* Project object */;
 }

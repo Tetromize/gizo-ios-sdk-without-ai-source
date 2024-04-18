@@ -14,6 +14,7 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
     
     private var orientationText: String!
 //    private var videoCaptureManager: VideoCaptureManager?
+    private var cameraManager = CameraManager.shared
     private var lastWarnTime: Date?
     private var isCoverHidden: Bool=false
 //    private var videoIndex: Int=0
@@ -25,8 +26,8 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
     public var batteryStatus: BatteryStatus=BatteryStatus.NORMAL
     private var collectUserActivity: Bool=false
     private var collectTTC: Bool=false
-//    public var inProgress: Bool=false
-//    public var previewAttached: Bool=false
+    public var inProgress: Bool=false
+    public var previewAttached: Bool=false
     public var delegate: GizoAnalysisDelegate?
     var gizoOption = GizoCommon.shared.options
     var thermalState: ProcessInfo.ThermalState = .nominal
@@ -41,28 +42,59 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
         }
     }
     
-//    func getVideoPath(videoPath: String) -> String {
-//        return cacheManager.checkCSVPath(csvPath: videoPath, name: "video", ext: ".mp4", createBlock: nil)
-//    }
+    func getVideoPath(videoPath: String) -> String {
+        return videoPath
+    }
     
-//    func lockPreview() {
-//        videoCaptureManager?.lockPreview()
-//    }
-//
-//    func unlockPreview(previewView: UIView) {
-//        videoCaptureManager?.unlockPreview(previewView)
-//    }
-//
-//    func attachPreview(previewView: UIView?) {
-//        videoCaptureManager?.attachPreview(previewView)
-//        if (previewView != nil) {
-//            previewAttached = true
-//        }
-//        else {
-//            previewAttached = false
-//        }
-//        self.delegate?.onSessionStatus(inProgress: inProgress, previewAttached: previewAttached)
-//    }
+    func lockPreview() {
+        self.cameraManager.previewLayer?.isHidden = true
+    }
+
+    func unlockPreview(previewView: UIView?) {
+        self.cameraManager.previewLayer?.isHidden = false    }
+
+    func attachPreview(previewView: UIView) {
+        DispatchQueue.main.async { [weak self] in
+            guard let self = self else { return }
+
+            // Check if the camera setup needs to be initialized
+            if self.cameraManager.previewLayer == nil {
+                // Request permissions and setup session if needed
+                self.cameraManager.checkPermissionsAndSetupSession(completion: { success in
+                    if success {
+                        // If setup is successful and session is started, attach the preview
+                        DispatchQueue.main.async {
+                            self.attachPreviewLayer(previewView: previewView)
+                        }
+                    } else {
+                        // Handle the denial of permission or other setup failure
+                        self.lockPreview()
+                    }
+                })
+            } else if let previewLayer = self.cameraManager.previewLayer {
+                setupCameraProcessing()
+                // If already initialized and session is running, just attach the preview
+                self.attachPreviewLayer(previewView: previewView)
+            }
+        }
+    }
+
+    private func attachPreviewLayer(previewView: UIView) {
+        guard let previewLayer = self.cameraManager.previewLayer else { return }
+        previewLayer.frame = previewView.bounds
+        self.adjustPreviewLayerOrientation(previewLayer)
+        if previewLayer.superlayer == nil {
+            previewView.layer.addSublayer(previewLayer)
+        }
+        // Inform delegate about session status if needed
+//        self.delegate?.onSessionStatus(inProgress: self.cameraManager.isSessionRunning, previewAttached: true)
+    }
+    
+    private func adjustPreviewLayerOrientation(_ previewLayer: AVCaptureVideoPreviewLayer) {
+        if let previewConnection = previewLayer.connection, previewConnection.isVideoOrientationSupported {
+            previewConnection.videoOrientation = .landscapeRight
+        }
+    }
     
     func didUpdateMotion(orientation: UIDeviceOrientation, isValidInterface: Bool) {
 
@@ -267,19 +299,17 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
 //        stopVideoRecordAndTTC()
     }
     
+    func setupCameraProcessing() {
+        cameraManager.startSession()
+    }
+    
     func initialVideoCapture(){
         
-//        let analysisSetting = self.gizoOption?.analysisSetting
-//        let videoSetting = self.gizoOption?.videoSetting
-//        if(
-////            (analysisSetting?.allowAnalysis != nil && analysisSetting?.allowAnalysis ?? false) ||
-//           (videoSetting?.allowRecording != nil && videoSetting?.allowRecording ?? false)){
-//            UIApplication.shared.isIdleTimerDisabled = true
-//            videoCaptureManager = VideoCaptureManager()
-//
-//            videoCaptureManager?.delegate = self;
-//            videoCaptureManager?.startVideoCapture()
-//        }
+        let videoSetting = self.gizoOption?.videoSetting
+        if((videoSetting?.allowRecording != nil && videoSetting?.allowRecording ?? false)){
+            UIApplication.shared.isIdleTimerDisabled = true
+            
+        }
         
         let userActivitySetting = gizoOption?.userActivitySetting
         if (userActivitySetting?.allowUserActivity != nil && (userActivitySetting?.allowUserActivity)!) {
@@ -335,14 +365,20 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
 //            collectTTC = true
 //        }
         
-//        let videoSetting = gizoOption?.videoSetting
-//        if (videoSetting?.allowRecording != nil && (videoSetting?.allowRecording)!) {
-//            if (videoCaptureManager != nil && !(videoCaptureManager!.isShooting)) {
-//                videoIndex += 1
-//                let videoPath = getVideoPath(videoPath: (videoSetting?.fileLocation)!)
-//                videoCaptureManager?.startVideoRecorder(videoPath)
-//            }
-//        }
+        let videoSetting = gizoOption?.videoSetting
+        if (videoSetting?.allowRecording != nil && (videoSetting?.allowRecording)!) {
+            var videoPath = getVideoPath(videoPath: (videoSetting?.fileLocation)!)
+
+            var isDirectory: ObjCBool = false
+            var exists = FileManager.default.fileExists(atPath: videoPath, isDirectory: &isDirectory)
+            if (exists) {
+                videoPath = videoPath + (cacheManager.tripTime ?? "")
+                BaseModel.createDir(path: videoPath)
+            }
+            
+            cameraManager.startRecording(to: videoPath)
+
+        }
         
         let gpsSetting = gizoOption?.gpsSetting
         if (gpsSetting?.allowGps != nil && (gpsSetting?.allowGps)!) {
@@ -374,6 +410,7 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
     
     func stopRecording() {
 //        videoCaptureManager?.stopVideoRecorder()
+        cameraManager.stopRecording()
 
         if (gpsTimer != nil) {
             gpsTimer?.cancel()
@@ -393,6 +430,7 @@ class DriveManager : NSObject, MBLocationManagerDelegate, MotionManagerDelegate,
     func stopVideoCapture(){
 //        videoCaptureManager?.delegate = nil
 //        videoCaptureManager?.stopVideoCapture()
+        cameraManager.stopSession()
         
         LocationManager.shared.delegate = nil
         LocationManager.shared.stopLocation()

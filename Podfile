@@ -5,8 +5,8 @@ target 'GizoSDK' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'MapboxNavigation', '~> 2.12.0'
-  pod 'MapboxMaps', '~> 10.12.3'
+  pod 'MapboxMaps', '~> 12.10.3'
+  pod 'MapboxNavigation', '~> 2.10.0'
   pod 'SnapKit', '~> 5.6.0'
 
 end

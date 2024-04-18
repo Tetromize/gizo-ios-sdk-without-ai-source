@@ -7,8 +7,8 @@
 
 import UIKit
 
-//public class GizoVideoSetting: GizoBaseSetting {
-//    public var allowRecording: Bool=false
-//    public var fileLocation: String=FileLocationPath.Cache
-//    public var quality: String=Quality.HD
-//}
+public class GizoVideoSetting: GizoBaseSetting {
+    public var allowRecording: Bool=false
+    public var fileLocation: String=FileLocationPath.Cache
+    public var quality: String=Quality.HD
+}

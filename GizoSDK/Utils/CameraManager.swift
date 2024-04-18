@@ -44,6 +44,7 @@ class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     override init() {
         super.init()
+//        startSession()
     }
 
 //    static func checkCameraPermission() -> AuthorizationStatus {
@@ -64,20 +65,27 @@ class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         }
     }
     
-    public func checkPermissionsAndSetupSession() {
+    public func checkPermissionsAndSetupSession(completion: @escaping (Bool) -> Void) {
         switch AVCaptureDevice.authorizationStatus(for: .video) {
         case .authorized:
             setupCaptureSession()
+            startSession()
+            completion(true)
         case .notDetermined:
             AVCaptureDevice.requestAccess(for: .video) { [weak self] granted in
-                if granted {
-                    DispatchQueue.main.async {
+                DispatchQueue.main.async {
+                    if granted {
                         self?.setupCaptureSession()
+                        self?.startSession()
+                        completion(true)
+                    } else {
+                        completion(false)
                     }
                 }
             }
         default:
             print("Access to the camera is denied or restricted")
+            completion(false)
         }
     }
 
@@ -152,7 +160,7 @@ class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     private func setupWriter(to folderURL: URL) {
         let fileURL = folderURL.appendingPathComponent("video").appendingPathExtension("mp4")
-        
+
         do {
             assetWriter = try AVAssetWriter(outputURL: fileURL, fileType: .mp4)
             
@@ -205,9 +213,13 @@ class CameraManager: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         assetWriterPixelBufferInput = nil
     }
     
-    func startRecording(to folderURL: URL)  {
+    func startRecording(to folderURL: String)  {
         guard !isRecording else { return }
-        setupWriter(to: folderURL)
+        guard let fileURL = URL(string: "file:///" + folderURL) else {
+            print("Invalid URL string: \(folderURL)")
+            return
+        }
+        setupWriter(to: fileURL)
         isRecording = assetWriter?.startWriting() ?? false
         if isRecording {
             startTime = nil
