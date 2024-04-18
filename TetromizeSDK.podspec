@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/Tetromize/gizo-ios-sdk-without-ai-source'
   s.license          = { :type => 'MIT', :file => './LICENSE' }
-  s.author           = { 'Artificient' => 'alidonyaie@gmail.com' }
+  s.author           = { 'Tetromize' => 'alidonyaie@gmail.com' }
   s.source           = { :git => 'https://github.com/Tetromize/gizo-ios-sdk-without-ai-source.git', :tag => s.version }
   s.ios.deployment_target = '13.0'
   s.source_files     = 'GizoSDK/**/*.{h,swift}'
