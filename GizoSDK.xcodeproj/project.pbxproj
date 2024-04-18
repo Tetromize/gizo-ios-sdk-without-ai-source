@@ -45,11 +45,9 @@
 		1B8919062B05C12C00185633 /* MTAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E82B05C12C00185633 /* MTAlert.swift */; };
 		1B8919072B05C12C00185633 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E92B05C12C00185633 /* PythonManager.swift */; };
 		1B8919102B05C12C00185633 /* DateTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F22B05C12C00185633 /* DateTimeUtil.swift */; };
-		1B8919152B05C12C00185633 /* VideoCaptureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8918F82B05C12C00185633 /* VideoCaptureManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */; };
 		1B8919172B05C12C00185633 /* LetterBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */; };
 		1B89191C2B05C12C00185633 /* OpenCVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FF2B05C12C00185633 /* OpenCVManager.swift */; };
-		1B89191D2B05C12C00185633 /* VideoCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8919002B05C12C00185633 /* VideoCaptureManager.m */; };
 		1B94CFE82B158D5900962330 /* TripCSVIMUModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */; };
 		1B94CFF72B158D5900962330 /* TripCSVTTCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */; };
 		1B94CFF92B158D5900962330 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE22B158D5900962330 /* BaseModel.swift */; };
@@ -100,12 +98,9 @@
 		1B8918E82B05C12C00185633 /* MTAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAlert.swift; sourceTree = "<group>"; };
 		1B8918E92B05C12C00185633 /* PythonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
 		1B8918F22B05C12C00185633 /* DateTimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeUtil.swift; sourceTree = "<group>"; };
-		1B8918F82B05C12C00185633 /* VideoCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureManager.h; sourceTree = "<group>"; };
 		1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifiedCamConversion.swift; sourceTree = "<group>"; };
 		1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterBoxModel.swift; sourceTree = "<group>"; };
 		1B8918FF2B05C12C00185633 /* OpenCVManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVManager.swift; sourceTree = "<group>"; };
-		1B8919002B05C12C00185633 /* VideoCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureManager.m; sourceTree = "<group>"; };
-		1B8919012B05C12C00185633 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
 		1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVIMUModel.swift; sourceTree = "<group>"; };
 		1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVTTCModel.swift; sourceTree = "<group>"; };
 		1B94CFE22B158D5900962330 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -225,12 +220,8 @@
 		1B8918F72B05C12C00185633 /* OpenCV2 */ = {
 			isa = PBXGroup;
 			children = (
-				1B8919012B05C12C00185633 /* CVWrapper.mm */,
 				1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */,
-				1B8918FF2B05C12C00185633 /* OpenCVManager.swift */,
 				1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */,
-				1B8918F82B05C12C00185633 /* VideoCaptureManager.h */,
-				1B8919002B05C12C00185633 /* VideoCaptureManager.m */,
 			);
 			path = OpenCV2;
 			sourceTree = "<group>";
@@ -273,7 +264,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8919152B05C12C00185633 /* VideoCaptureManager.h in Headers */,
 				1B4FE97C2B219E1400AF00E5 /* GizoSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +431,6 @@
 				1B82D5C42B1DE81E00CA8FE4 /* TripCacheManager.swift in Sources */,
 				1B82D5BE2B1DE50500CA8FE4 /* LocationManager.swift in Sources */,
 				1B82D5D92B1DF42A00CA8FE4 /* GizoImuSetting.swift in Sources */,
-				1B89191D2B05C12C00185633 /* VideoCaptureManager.m in Sources */,
 				1B82D5DB2B1DF52400CA8FE4 /* GizoVideoSetting.swift in Sources */,
 				1B66B3482B1EFEF1005822CF /* DriveManager.swift in Sources */,
 				1B82D5CF2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift in Sources */,
