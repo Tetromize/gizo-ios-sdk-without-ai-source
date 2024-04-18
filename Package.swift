@@ -21,9 +21,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "GizoSDK-iOS",
+            name: "GizoSDK",
             path: "GizoSDK"),
-            dependencies: ["MapboxMaps", "MapboxNavigation", "GizoSDK"],
+            dependencies: ["MapboxMaps", "MapboxNavigation"],
             resources: [.copy("Gizo.bundle")],
             linkerSettings: [
                 .linkedLibrary("z"),
@@ -33,8 +33,5 @@ let package = Package(
                 .linkedFramework("SystemConfiguration")
             ]
 
-    ],
-    swiftLanguageVersions: [
-        .v5
     ]
 )
