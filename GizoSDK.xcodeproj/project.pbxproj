@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B89191F2B05C1F800185633 /* GizoSDKLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B8919202B05C1F800185633 /* Build configuration list for PBXAggregateTarget "GizoSDKLib" */;
+			buildPhases = (
+				1B8919232B05C20200185633 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GizoSDKLib;
+			productName = GizoSDKLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B4FE97C2B219E1400AF00E5 /* GizoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8918DC2B05B44B00185633 /* GizoSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B66B3462B1EC2F9005822CF /* GizoCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66B3452B1EC2F9005822CF /* GizoCommon.swift */; };
+		1B66B3482B1EFEF1005822CF /* DriveManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66B3472B1EFEF1005822CF /* DriveManager.swift */; };
+		1B7794502B4022B2000D4074 /* RSACrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B77944F2B4022B2000D4074 /* RSACrypt.swift */; };
+		1B7794522B4022D8000D4074 /* TokenValidateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7794512B4022D8000D4074 /* TokenValidateManager.swift */; };
+		1B7794542B4025B2000D4074 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7794532B4025B2000D4074 /* HttpManager.swift */; };
+		1B82D5BD2B1DE50500CA8FE4 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5BA2B1DE50500CA8FE4 /* MotionManager.swift */; };
+		1B82D5BE2B1DE50500CA8FE4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5BB2B1DE50500CA8FE4 /* LocationManager.swift */; };
+		1B82D5BF2B1DE50500CA8FE4 /* MotionActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5BC2B1DE50500CA8FE4 /* MotionActivityManager.swift */; };
+		1B82D5C42B1DE81E00CA8FE4 /* TripCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5C32B1DE81E00CA8FE4 /* TripCacheManager.swift */; };
+		1B82D5CF2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5CE2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift */; };
+		1B82D5D12B1DF15500CA8FE4 /* GizoBaseSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5D02B1DF15500CA8FE4 /* GizoBaseSetting.swift */; };
+		1B82D5D72B1DF32E00CA8FE4 /* GizoGpsSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5D62B1DF32E00CA8FE4 /* GizoGpsSetting.swift */; };
+		1B82D5D92B1DF42A00CA8FE4 /* GizoImuSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5D82B1DF42A00CA8FE4 /* GizoImuSetting.swift */; };
+		1B82D5DB2B1DF52400CA8FE4 /* GizoVideoSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5DA2B1DF52400CA8FE4 /* GizoVideoSetting.swift */; };
+		1B82D5DD2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5DC2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift */; };
+		1B82D5DF2B1DF72C00CA8FE4 /* GizoOrientationSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5DE2B1DF72C00CA8FE4 /* GizoOrientationSetting.swift */; };
+		1B82D5E12B1DF8B800CA8FE4 /* GizoAppOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5E02B1DF8B800CA8FE4 /* GizoAppOptions.swift */; };
+		1B82D5E32B1DF9C300CA8FE4 /* Gizo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5E22B1DF9C300CA8FE4 /* Gizo.swift */; };
+		1B82D5E52B1DFD5500CA8FE4 /* GizoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5E42B1DFD5500CA8FE4 /* GizoApp.swift */; };
+		1B82D5E72B1DFE0600CA8FE4 /* GizoAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82D5E62B1DFE0600CA8FE4 /* GizoAnalysis.swift */; };
+		1B8919062B05C12C00185633 /* MTAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E82B05C12C00185633 /* MTAlert.swift */; };
+		1B8919072B05C12C00185633 /* PythonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918E92B05C12C00185633 /* PythonManager.swift */; };
+		1B8919102B05C12C00185633 /* DateTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F22B05C12C00185633 /* DateTimeUtil.swift */; };
+		1B8919152B05C12C00185633 /* VideoCaptureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8918F82B05C12C00185633 /* VideoCaptureManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */; };
+		1B8919172B05C12C00185633 /* LetterBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */; };
+		1B89191C2B05C12C00185633 /* OpenCVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8918FF2B05C12C00185633 /* OpenCVManager.swift */; };
+		1B89191D2B05C12C00185633 /* VideoCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8919002B05C12C00185633 /* VideoCaptureManager.m */; };
+		1B94CFE82B158D5900962330 /* TripCSVIMUModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */; };
+		1B94CFF72B158D5900962330 /* TripCSVTTCModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */; };
+		1B94CFF92B158D5900962330 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE22B158D5900962330 /* BaseModel.swift */; };
+		1B94CFFA2B158D5900962330 /* TripCSVGPSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE32B158D5900962330 /* TripCSVGPSModel.swift */; };
+		1B94CFFB2B158D5900962330 /* TripCSVActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE42B158D5900962330 /* TripCSVActivityModel.swift */; };
+		1B94CFFD2B158D5900962330 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B94CFE62B158D5900962330 /* LocationModel.swift */; };
+		2A3F3B622BD14411009F04F2 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B612BD14411009F04F2 /* CameraManager.swift */; };
+		2A3F3B6F2BD154CB009F04F2 /* GizoSDK.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */; };
+		2A3F3B712BD15590009F04F2 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F3B702BD15590009F04F2 /* LICENSE */; };
+		2A5315C22B739E5A007B51EB /* GizoUserActivitySetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */; };
+		2A5315D22B7668A9007B51EB /* LogActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D12B7668A9007B51EB /* LogActivityModel.swift */; };
+		2A5315D42B7B4153007B51EB /* ThermalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5315D32B7B4153007B51EB /* ThermalManager.swift */; };
+		2A6DB6AE2BBD809E003B0011 /* TripCSVAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AD2BBD809E003B0011 /* TripCSVAppModel.swift */; };
+		2A6DB6B02BBD80CD003B0011 /* TripCSVPhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DB6AF2BBD80CD003B0011 /* TripCSVPhoneModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03931CE4C7431F9F120A29CB /* Pods_GizoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GizoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BBB193EE9FD301B701868F /* Pods-GizoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GizoSDK.release.xcconfig"; path = "Target Support Files/Pods-GizoSDK/Pods-GizoSDK.release.xcconfig"; sourceTree = "<group>"; };
+		1B4FE9A12B21B6DF00AF00E5 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B66B3452B1EC2F9005822CF /* GizoCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoCommon.swift; sourceTree = "<group>"; };
+		1B66B3472B1EFEF1005822CF /* DriveManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveManager.swift; sourceTree = "<group>"; };
+		1B77944F2B4022B2000D4074 /* RSACrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSACrypt.swift; sourceTree = "<group>"; };
+		1B7794512B4022D8000D4074 /* TokenValidateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenValidateManager.swift; sourceTree = "<group>"; };
+		1B7794532B4025B2000D4074 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		1B82D5BA2B1DE50500CA8FE4 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		1B82D5BB2B1DE50500CA8FE4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1B82D5BC2B1DE50500CA8FE4 /* MotionActivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionActivityManager.swift; sourceTree = "<group>"; };
+		1B82D5C32B1DE81E00CA8FE4 /* TripCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCacheManager.swift; sourceTree = "<group>"; };
+		1B82D5CE2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoAnalysisSettings.swift; sourceTree = "<group>"; };
+		1B82D5D02B1DF15500CA8FE4 /* GizoBaseSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoBaseSetting.swift; sourceTree = "<group>"; };
+		1B82D5D62B1DF32E00CA8FE4 /* GizoGpsSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoGpsSetting.swift; sourceTree = "<group>"; };
+		1B82D5D82B1DF42A00CA8FE4 /* GizoImuSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoImuSetting.swift; sourceTree = "<group>"; };
+		1B82D5DA2B1DF52400CA8FE4 /* GizoVideoSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoVideoSetting.swift; sourceTree = "<group>"; };
+		1B82D5DC2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoBatterySetting.swift; sourceTree = "<group>"; };
+		1B82D5DE2B1DF72C00CA8FE4 /* GizoOrientationSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoOrientationSetting.swift; sourceTree = "<group>"; };
+		1B82D5E02B1DF8B800CA8FE4 /* GizoAppOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoAppOptions.swift; sourceTree = "<group>"; };
+		1B82D5E22B1DF9C300CA8FE4 /* Gizo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gizo.swift; sourceTree = "<group>"; };
+		1B82D5E42B1DFD5500CA8FE4 /* GizoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoApp.swift; sourceTree = "<group>"; };
+		1B82D5E62B1DFE0600CA8FE4 /* GizoAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoAnalysis.swift; sourceTree = "<group>"; };
+		1B8918D92B05B44B00185633 /* GizoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GizoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8918DC2B05B44B00185633 /* GizoSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GizoSDK.h; sourceTree = "<group>"; };
+		1B8918E82B05C12C00185633 /* MTAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAlert.swift; sourceTree = "<group>"; };
+		1B8918E92B05C12C00185633 /* PythonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PythonManager.swift; sourceTree = "<group>"; };
+		1B8918F22B05C12C00185633 /* DateTimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTimeUtil.swift; sourceTree = "<group>"; };
+		1B8918F82B05C12C00185633 /* VideoCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCaptureManager.h; sourceTree = "<group>"; };
+		1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifiedCamConversion.swift; sourceTree = "<group>"; };
+		1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterBoxModel.swift; sourceTree = "<group>"; };
+		1B8918FF2B05C12C00185633 /* OpenCVManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenCVManager.swift; sourceTree = "<group>"; };
+		1B8919002B05C12C00185633 /* VideoCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCaptureManager.m; sourceTree = "<group>"; };
+		1B8919012B05C12C00185633 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVIMUModel.swift; sourceTree = "<group>"; };
+		1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVTTCModel.swift; sourceTree = "<group>"; };
+		1B94CFE22B158D5900962330 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		1B94CFE32B158D5900962330 /* TripCSVGPSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVGPSModel.swift; sourceTree = "<group>"; };
+		1B94CFE42B158D5900962330 /* TripCSVActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripCSVActivityModel.swift; sourceTree = "<group>"; };
+		1B94CFE62B158D5900962330 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		2A3F3B612BD14411009F04F2 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = GizoSDK.podspec; sourceTree = "<group>"; };
+		2A3F3B702BD15590009F04F2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GizoUserActivitySetting.swift; sourceTree = "<group>"; };
+		2A5315D12B7668A9007B51EB /* LogActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogActivityModel.swift; sourceTree = "<group>"; };
+		2A5315D32B7B4153007B51EB /* ThermalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalManager.swift; sourceTree = "<group>"; };
+		2A6DB6AD2BBD809E003B0011 /* TripCSVAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCSVAppModel.swift; sourceTree = "<group>"; };
+		2A6DB6AF2BBD80CD003B0011 /* TripCSVPhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCSVPhoneModel.swift; sourceTree = "<group>"; };
+		FD43DAF57B301B439A811D3F /* Pods-GizoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GizoSDK.debug.xcconfig"; path = "Target Support Files/Pods-GizoSDK/Pods-GizoSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8918D62B05B44B00185633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA5F4E5D110B5DD0BCCC3B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B4FE9A12B21B6DF00AF00E5 /* SSZipArchive.framework */,
+				03931CE4C7431F9F120A29CB /* Pods_GizoSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B82D5CD2B1DEE9000CA8FE4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1B82D5CE2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift */,
+				1B82D5D02B1DF15500CA8FE4 /* GizoBaseSetting.swift */,
+				1B82D5D62B1DF32E00CA8FE4 /* GizoGpsSetting.swift */,
+				1B82D5D82B1DF42A00CA8FE4 /* GizoImuSetting.swift */,
+				1B82D5DA2B1DF52400CA8FE4 /* GizoVideoSetting.swift */,
+				1B82D5DC2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift */,
+				1B82D5DE2B1DF72C00CA8FE4 /* GizoOrientationSetting.swift */,
+				2A5315C12B739E5A007B51EB /* GizoUserActivitySetting.swift */,
+				1B82D5E02B1DF8B800CA8FE4 /* GizoAppOptions.swift */,
+				1B66B3452B1EC2F9005822CF /* GizoCommon.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1B8918CF2B05B44B00185633 = {
+			isa = PBXGroup;
+			children = (
+				2A3F3B6E2BD154CB009F04F2 /* GizoSDK.podspec */,
+				2A3F3B702BD15590009F04F2 /* LICENSE */,
+				1B8918DB2B05B44B00185633 /* GizoSDK */,
+				1B8918DA2B05B44B00185633 /* Products */,
+				BFC1EBE9B8B6E667261784B4 /* Pods */,
+				0BA5F4E5D110B5DD0BCCC3B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8918DA2B05B44B00185633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8918D92B05B44B00185633 /* GizoSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8918DB2B05B44B00185633 /* GizoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1B82D5CD2B1DEE9000CA8FE4 /* Base */,
+				1B82D5C32B1DE81E00CA8FE4 /* TripCacheManager.swift */,
+				1B66B3472B1EFEF1005822CF /* DriveManager.swift */,
+				1B82D5E22B1DF9C300CA8FE4 /* Gizo.swift */,
+				1B82D5E42B1DFD5500CA8FE4 /* GizoApp.swift */,
+				1B82D5E62B1DFE0600CA8FE4 /* GizoAnalysis.swift */,
+				1B94D01F2B1596E100962330 /* ThirdLibs */,
+				1B94CFD02B158D5900962330 /* Model */,
+				1B8918E32B05C11900185633 /* Utils */,
+				1B8918DC2B05B44B00185633 /* GizoSDK.h */,
+			);
+			path = GizoSDK;
+			sourceTree = "<group>";
+		};
+		1B8918E32B05C11900185633 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1B7794532B4025B2000D4074 /* HttpManager.swift */,
+				1B7794512B4022D8000D4074 /* TokenValidateManager.swift */,
+				1B77944F2B4022B2000D4074 /* RSACrypt.swift */,
+				1B82D5BB2B1DE50500CA8FE4 /* LocationManager.swift */,
+				1B82D5BC2B1DE50500CA8FE4 /* MotionActivityManager.swift */,
+				1B82D5BA2B1DE50500CA8FE4 /* MotionManager.swift */,
+				1B8918F22B05C12C00185633 /* DateTimeUtil.swift */,
+				1B8918E82B05C12C00185633 /* MTAlert.swift */,
+				1B8918F72B05C12C00185633 /* OpenCV2 */,
+				1B8918E92B05C12C00185633 /* PythonManager.swift */,
+				2A5315D12B7668A9007B51EB /* LogActivityModel.swift */,
+				2A5315D32B7B4153007B51EB /* ThermalManager.swift */,
+				2A3F3B612BD14411009F04F2 /* CameraManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1B8918F72B05C12C00185633 /* OpenCV2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B8919012B05C12C00185633 /* CVWrapper.mm */,
+				1B8918FA2B05C12C00185633 /* LetterBoxModel.swift */,
+				1B8918FF2B05C12C00185633 /* OpenCVManager.swift */,
+				1B8918F92B05C12C00185633 /* SimplifiedCamConversion.swift */,
+				1B8918F82B05C12C00185633 /* VideoCaptureManager.h */,
+				1B8919002B05C12C00185633 /* VideoCaptureManager.m */,
+			);
+			path = OpenCV2;
+			sourceTree = "<group>";
+		};
+		1B94CFD02B158D5900962330 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B94CFE22B158D5900962330 /* BaseModel.swift */,
+				1B94CFE62B158D5900962330 /* LocationModel.swift */,
+				1B94CFE42B158D5900962330 /* TripCSVActivityModel.swift */,
+				1B94CFE32B158D5900962330 /* TripCSVGPSModel.swift */,
+				1B94CFD12B158D5900962330 /* TripCSVIMUModel.swift */,
+				1B94CFE02B158D5900962330 /* TripCSVTTCModel.swift */,
+				2A6DB6AD2BBD809E003B0011 /* TripCSVAppModel.swift */,
+				2A6DB6AF2BBD80CD003B0011 /* TripCSVPhoneModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B94D01F2B1596E100962330 /* ThirdLibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLibs;
+			sourceTree = "<group>";
+		};
+		BFC1EBE9B8B6E667261784B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD43DAF57B301B439A811D3F /* Pods-GizoSDK.debug.xcconfig */,
+				17BBB193EE9FD301B701868F /* Pods-GizoSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B8918D42B05B44B00185633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8919152B05C12C00185633 /* VideoCaptureManager.h in Headers */,
+				1B4FE97C2B219E1400AF00E5 /* GizoSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B8918D82B05B44B00185633 /* GizoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8918E02B05B44B00185633 /* Build configuration list for PBXNativeTarget "GizoSDK" */;
+			buildPhases = (
+				E12A0F1787D916C6E3F4B153 /* [CP] Check Pods Manifest.lock */,
+				1B8918D42B05B44B00185633 /* Headers */,
+				1B8918D52B05B44B00185633 /* Sources */,
+				1B8918D62B05B44B00185633 /* Frameworks */,
+				1B8918D72B05B44B00185633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizoSDK;
+			packageProductDependencies = (
+			);
+			productName = GizoSDK;
+			productReference = 1B8918D92B05B44B00185633 /* GizoSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8918D02B05B44B00185633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1B8918D82B05B44B00185633 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					1B89191F2B05C1F800185633 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B8918D32B05B44B00185633 /* Build configuration list for PBXProject "GizoSDK" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B8918CF2B05B44B00185633;
+			packageReferences = (
+			);
+			productRefGroup = 1B8918DA2B05B44B00185633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8918D82B05B44B00185633 /* GizoSDK */,
+				1B89191F2B05C1F800185633 /* GizoSDKLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8918D72B05B44B00185633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8919232B05C20200185633 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nFMK_NAME=${PROJECT_NAME}\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.xcframework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Build/Products/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Build/Products/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -workspace ${FMK_NAME}.xcworkspace -scheme ${FMK_NAME} -configuration Release -derivedDataPath ${WRK_DIR} clean\n\nxcodebuild -workspace ${FMK_NAME}.xcworkspace -scheme ${FMK_NAME} -configuration Release -derivedDataPath ${WRK_DIR} -sdk iphoneos -arch arm64 clean build\n# simulator\nxcodebuild -workspace ${FMK_NAME}.xcworkspace -scheme ${FMK_NAME} -configuration Release -derivedDataPath ${WRK_DIR} -sdk iphonesimulator -arch x86_64 -arch arm64 build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nxcodebuild -create-xcframework -framework \"${DEVICE_DIR}\" -framework \"${SIMULATOR_DIR}\" -output \"${INSTALL_DIR}\"\n\nopen \"${SRCROOT}/Products/\"\n";
+		};
+		E12A0F1787D916C6E3F4B153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GizoSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8918D52B05B44B00185633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8919172B05C12C00185633 /* LetterBoxModel.swift in Sources */,
+				2A3F3B622BD14411009F04F2 /* CameraManager.swift in Sources */,
+				1B7794542B4025B2000D4074 /* HttpManager.swift in Sources */,
+				1B82D5E32B1DF9C300CA8FE4 /* Gizo.swift in Sources */,
+				1B82D5E12B1DF8B800CA8FE4 /* GizoAppOptions.swift in Sources */,
+				2A3F3B712BD15590009F04F2 /* LICENSE in Sources */,
+				1B82D5E52B1DFD5500CA8FE4 /* GizoApp.swift in Sources */,
+				1B94CFFB2B158D5900962330 /* TripCSVActivityModel.swift in Sources */,
+				1B82D5BD2B1DE50500CA8FE4 /* MotionManager.swift in Sources */,
+				2A6DB6B02BBD80CD003B0011 /* TripCSVPhoneModel.swift in Sources */,
+				1B82D5BF2B1DE50500CA8FE4 /* MotionActivityManager.swift in Sources */,
+				1B89191C2B05C12C00185633 /* OpenCVManager.swift in Sources */,
+				1B94CFFD2B158D5900962330 /* LocationModel.swift in Sources */,
+				1B82D5E72B1DFE0600CA8FE4 /* GizoAnalysis.swift in Sources */,
+				1B7794502B4022B2000D4074 /* RSACrypt.swift in Sources */,
+				1B94CFF72B158D5900962330 /* TripCSVTTCModel.swift in Sources */,
+				2A6DB6AE2BBD809E003B0011 /* TripCSVAppModel.swift in Sources */,
+				1B8919072B05C12C00185633 /* PythonManager.swift in Sources */,
+				1B8919062B05C12C00185633 /* MTAlert.swift in Sources */,
+				2A5315D42B7B4153007B51EB /* ThermalManager.swift in Sources */,
+				1B94CFF92B158D5900962330 /* BaseModel.swift in Sources */,
+				2A5315D22B7668A9007B51EB /* LogActivityModel.swift in Sources */,
+				1B82D5D12B1DF15500CA8FE4 /* GizoBaseSetting.swift in Sources */,
+				1B8919102B05C12C00185633 /* DateTimeUtil.swift in Sources */,
+				2A5315C22B739E5A007B51EB /* GizoUserActivitySetting.swift in Sources */,
+				1B94CFFA2B158D5900962330 /* TripCSVGPSModel.swift in Sources */,
+				1B82D5D72B1DF32E00CA8FE4 /* GizoGpsSetting.swift in Sources */,
+				1B82D5DD2B1DF6DF00CA8FE4 /* GizoBatterySetting.swift in Sources */,
+				2A3F3B6F2BD154CB009F04F2 /* GizoSDK.podspec in Sources */,
+				1B7794522B4022D8000D4074 /* TokenValidateManager.swift in Sources */,
+				1B66B3462B1EC2F9005822CF /* GizoCommon.swift in Sources */,
+				1B8919162B05C12C00185633 /* SimplifiedCamConversion.swift in Sources */,
+				1B82D5C42B1DE81E00CA8FE4 /* TripCacheManager.swift in Sources */,
+				1B82D5BE2B1DE50500CA8FE4 /* LocationManager.swift in Sources */,
+				1B82D5D92B1DF42A00CA8FE4 /* GizoImuSetting.swift in Sources */,
+				1B89191D2B05C12C00185633 /* VideoCaptureManager.m in Sources */,
+				1B82D5DB2B1DF52400CA8FE4 /* GizoVideoSetting.swift in Sources */,
+				1B66B3482B1EFEF1005822CF /* DriveManager.swift in Sources */,
+				1B82D5CF2B1DEEA800CA8FE4 /* GizoAnalysisSettings.swift in Sources */,
+				1B94CFE82B158D5900962330 /* TripCSVIMUModel.swift in Sources */,
+				1B82D5DF2B1DF72C00CA8FE4 /* GizoOrientationSetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B8918DE2B05B44B00185633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B8918DF2B05B44B00185633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B8918E12B05B44B00185633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD43DAF57B301B439A811D3F /* Pods-GizoSDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 59T7H63PY8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GizoSDK/ThirdLibs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihope.GizoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B8918E22B05B44B00185633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BBB193EE9FD301B701868F /* Pods-GizoSDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 59T7H63PY8;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GizoSDK/ThirdLibs",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihope.GizoSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B8919212B05C1F800185633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B8919222B05C1F800185633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8918D32B05B44B00185633 /* Build configuration list for PBXProject "GizoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8918DE2B05B44B00185633 /* Debug */,
+				1B8918DF2B05B44B00185633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8918E02B05B44B00185633 /* Build configuration list for PBXNativeTarget "GizoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8918E12B05B44B00185633 /* Debug */,
+				1B8918E22B05B44B00185633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8919202B05C1F800185633 /* Build configuration list for PBXAggregateTarget "GizoSDKLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8919212B05C1F800185633 /* Debug */,
+				1B8919222B05C1F800185633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B8918D02B05B44B00185633 /* Project object */;
+}
